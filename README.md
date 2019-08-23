@@ -20,6 +20,16 @@ $ heroku plugins:install @diurnate/heroku-vim-plugin
 
 # Usage
 <!-- usage -->
+As a precondition for the plugin usage, the environment variable `VIM_SOURCE` needs to be set with the static vim source.
+```sh-session
+$ export VIM_SOURCE=<static-vim-source-url> 
+```
+If not set the command will log the following error:
+```sh-session
+ ›   Error: Missing env variable VIM_SOURCE with static vim url
+```
+
+After setting the environment variable the heroku vim command can be called. 
 ```sh-session
 $ heroku vim -a <app>
 Preparing commands for Heroku console...
