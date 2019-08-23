@@ -14,7 +14,7 @@ Heroku vim CLI plugin
 # Installation
 <!-- installation -->
 ```sh-session
-$ heroku plugins:install @diurnate/heroku-vim-plugin
+$ heroku plugins:install diurnate/heroku-vim-plugin
 ```
 <!-- installationstop -->
 
