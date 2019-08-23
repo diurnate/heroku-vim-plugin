@@ -7,6 +7,7 @@ let dynoStub
 describe('vim', () => {
   beforeEach(function () {
     dynoStub = sinon.stub(utils, 'startDyno')
+    process.env.VIM_SOURCE = 'test'
   })
 
   test
